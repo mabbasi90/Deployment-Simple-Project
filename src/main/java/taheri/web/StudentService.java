@@ -16,7 +16,9 @@ public class StudentService {
 
     @RequestMapping(value = "/students/list", method = RequestMethod.GET)
     public List<Student> listAllStudents() {
-        List<Student> list = Collections.singletonList(new Student("Nima", "{SELAB}"));
+        List<Student> list = new ArrayList<Student>();
+	list.add(new Student("Nima", "{SELAB}"));
+	list.add(new Student("Mohammad","{SELAB2}"));
         return list;
     }
 
