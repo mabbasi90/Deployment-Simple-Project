@@ -19,7 +19,7 @@ public class StudentService {
     public List<Student> listAllStudents() {
         List<Student> list = new ArrayList<Student>();
 	list.add(new Student("Nima", "{SELAB}"));
-	list.add(new Student("Gholam", "{SELAB2}"))
+	list.add(new Student("Gholam", "{SELAB2}"));
 	list.add(new Student("Mohammad","{SELAB3}"));
         return list;
     }
