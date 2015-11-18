@@ -18,9 +18,9 @@ public class StudentService {
     @RequestMapping(value = "/students/list", method = RequestMethod.GET)
     public List<Student> listAllStudents() {
         List<Student> list = new ArrayList<Student>();
-	list.add(new Student("Nima", "{SELAB}"));
+	list.add(new Student("Nima123", "{SELAB}"));
 
-	list.add(new Student("Mohammad","{SELAB3}"));
+	list.add(new Student("Mohammad456","{SELAB3}"));
         return list;
     }
 
